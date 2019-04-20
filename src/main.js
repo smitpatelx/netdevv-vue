@@ -9,9 +9,7 @@ import axios from 'axios';
 import store from './store';
 import Vuelidate from 'vuelidate';
 import firebase from 'firebase';
-import Vuetify from 'vuetify';
 
-Vue.use(Vuetify);
 Vue.use(Vuelidate);
 Vue.use(VueAxios, axios);
 Vue.config.productionTip = false;
